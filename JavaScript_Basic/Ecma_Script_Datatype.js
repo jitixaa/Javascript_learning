@@ -1,3 +1,6 @@
+//https://tc39.es/ecma262/#sec-tokens
+
+
 "use struct"; // treat all js code as newer version
 
 // alert(3 + 3) // we are using nodejs, not browser
