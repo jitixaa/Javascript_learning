@@ -41,11 +41,39 @@ const myFunction = function(){
     console.log(typeof myFunction);
     
 }
-return myFunction()
+// return myFunction()
 
 
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//  ===========================================Memory==============================================
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "Jitixa Sutariya"
+let anotherName = myName
+anotherName = "Sutariya Ravi jitixa"
+
+
+
+// console.log(myName)
+// console.log(anotherName);
+
+let userOne = {
+    email :"Test@gmail.com",
+    user:"Test"
+}
+
+let UserTwo = userOne
+console.log(UserTwo);
+
+UserTwo.email = "jitixa@gmail.com"
+console.log(userOne.email);
+console.log(UserTwo.email);
+
+
+
 
 
 
