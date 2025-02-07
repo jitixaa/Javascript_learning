@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Two Number Program</title>
+</head>
+<body>
+<!-- Swapping using temporary variable.
+Swapping without using temporary variable. -->
+
+
+
+<script type="text/javascript">
+    var a = parseInt(prompt("Please Enter the First Value"));
+    var b = parseInt(prompt("Please Enter the Second value"));
+
+    console.log(`Display The value of a ${a} and value of b ${b}`);
+
+    // var temp;
+
+    // temp = a;
+    // a = b;
+    // b = temp;
+
+    // console.log(`After Swpping the number \n Display The value of a ${a} and value of b ${b}`);
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    console.log(`Without temp variable Swpping the number \n Display The value of a ${a} and value of b ${b}`);
+    
+    
+</script>
+</body>
+</html>
