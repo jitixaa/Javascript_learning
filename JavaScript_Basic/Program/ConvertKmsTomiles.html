@@ -6,6 +6,21 @@
     <title>Convert to Kms to miles using functio</title>
 </head>
 <body>
+    <input type="number" name="" step="any" id="data"> Kms to
+    <button onclick="Convert()">Convert</button> Miles
+    <h1 id="result"></h1>
+    <script type="text/javascript">
+        function Convert(){
+            var kms = document.getElementById('data').value;
+            // alert(kms);
+            const factor = 0.621371;
+            var miles = kms * factor;
+            // alert(miles);
+            // document.getElementById('result').innerText = `${miles} Miles`;
+            document.getElementById('result').innerText = miles + 'Miles';
+        }
+        
+    </script>
     
 </body>
 </html>
