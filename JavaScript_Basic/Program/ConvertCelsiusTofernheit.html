@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Celsius To Fehrenheit Program</title>
+</head>
+<body>
+    <!-- Formula to be used : 
+    fehrenheit = celsius * 1.8 + 32 -->
+    <input type="" name="" id="data"/> C 
+   <br/>
+   <br/>
+    <button onclick="convert()">Convert</button>
+    <h1 id="result"></h1>
+
+    <script type="text/javascript">
+        function convert(){
+            var c = document.getElementById('data').value;
+            var f = (c * 1.8) + 32;
+            document.getElementById('result').innerText = `${c} C and ${f} F`;
+           
+        }
+    </script>
+</body>
+</html>
